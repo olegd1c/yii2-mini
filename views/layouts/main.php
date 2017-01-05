@@ -51,7 +51,9 @@ AppAsset::register($this);
                 . Html::endForm()
                 . '</li>'
             )
-        ],
+        
+		,['label' => 'Admin Panel', 'url' => ['/admin']]	
+		],
     ]);
     NavBar::end();
     ?>
